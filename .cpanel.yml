@@ -1,5 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/nfit/web-app/
-    - /bin/cp -R images $DEPLOYPATH
