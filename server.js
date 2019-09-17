@@ -1,6 +1,5 @@
 const express = require('express');
 const path = require('path');
-const PORT = 3000;
 const app = express();
 
 //Requring Routes Files
@@ -20,6 +19,4 @@ app.set('views',path.join(__dirname, 'views'));
 
 
 //Running the Server
-app.listen(PORT, () => {
-    console.log('Server started on port '+PORT);
-});
+app.listen();
